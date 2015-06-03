@@ -35,6 +35,9 @@ TARGET_USES_ION := true
 # Healthd
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.qcom
 
+# Kernel
+TARGET_KERNEL_TOOLCHAIN := linaro-4.9_a15
+
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
